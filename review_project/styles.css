@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F8FF;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.underline {
+    width: 60px;
+    height: 3px;
+    background: #1294ff;
+    margin: 20px auto;
+}
+
+article {
+    margin: 20px 0;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    margin: 0 auto;
+    height: auto; /* Change height to auto */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container {
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px 0;
+    flex-shrink: 0; /* Add flex-shrink: 0 to prevent shrinking */
+}
+
+
+.img-container img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
+
+.img-container img:hover {
+    transform: scale(1.1);
+}
+
+.img-container img:active {
+    transform: scale(1);
+}
+
+.img-container img {
+    transition: transform 0.5s;
+}
+
+#author {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    
+}
+
+#job {
+    font-size: 18px;
+    color: #30c4ff;
+    margin-bottom: 0;
+}
+
+#info {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 0;
+}
+
+button {
+    background-color: #1294ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.prev-btn,
+.next-btn {
+    background-color: transparent;
+    color: #1294ff;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+.random-btn {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.random-btn:hover {
+    background-color: #ff4f4f;
+}
+
+.random-btn:active {
+    background-color: #ff6b6b;
+}
