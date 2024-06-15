@@ -1,1 +1,1 @@
-Vanilla-js projects - DOM Manipulation
+# Vanilla-js projects - DOM Manipulation
